@@ -13,5 +13,4 @@ run:
   args:
   - -c
   - |
-    apt-get update
-    apt-get -y install wget;
+    echo "Hello World"
