@@ -9,8 +9,5 @@ inputs:
 - name: my-repo
 
 run:
-  path: /bin/sh
-  args:
-  - -c
-  - |
-    echo "Hello World"
+  path: echo
+  args: [hello world]
